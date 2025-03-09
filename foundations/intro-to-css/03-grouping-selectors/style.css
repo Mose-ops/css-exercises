@@ -7,3 +7,7 @@
 .left-button{
     background-color: hsl(0, 0%, 50%);
 }
+
+.right-button{
+    background-color: rgb(255, 165, 0);
+}

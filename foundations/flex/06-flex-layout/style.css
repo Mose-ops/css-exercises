@@ -43,6 +43,13 @@ a {
   align-self: flex-start;
 }
 
+.left-links,
+.right-links {
+  display: flex;
+  gap: 8px;
+}
+
+
 .footer {
   display: flex;
   justify-content: space-between;

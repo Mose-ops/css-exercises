@@ -2,8 +2,10 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  padding: 8px;
   flex: initial;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -19,6 +21,7 @@ ul {
   list-style-type: none;
   display: flex;
   flex: initial;
+  margin-left: -40px;
   gap: 8px;
 }
 

@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
@@ -41,7 +45,7 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  align-self: flex-start;
+  align-self: stretch;
 }
 
 .left-links,
@@ -50,11 +54,17 @@ a {
   gap: 8px;
   justify-content: center;
 }
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
 
 
 .footer {
   display: flex;
   justify-content: space-between;
-  align-self: flex-end;
+  align-self: stretch;
   background-color: #eee;
 }

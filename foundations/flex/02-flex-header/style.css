@@ -21,7 +21,8 @@ ul {
   list-style-type: none;
   display: flex;
   flex: initial;
-  margin-left: -40px;
+  margin-left: 0px;
+  padding: 0px;
   gap: 8px;
 }
 

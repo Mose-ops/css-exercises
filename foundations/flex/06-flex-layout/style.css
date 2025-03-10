@@ -37,9 +37,15 @@ a {
   color: gray;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items:flex-end;
+  align-self: flex-end;
   background-color: #eee;
 }

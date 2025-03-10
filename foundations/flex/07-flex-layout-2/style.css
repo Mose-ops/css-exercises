@@ -42,13 +42,17 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  padding: 16px;
+  padding: 32px;
 }
 
 ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+}
+
+li {
+  padding-bottom: 16px;
 }
 
 a {

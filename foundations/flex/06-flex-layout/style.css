@@ -7,8 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
 
 img {
@@ -64,9 +62,7 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  align-self: stretch;
-  padding: 8px;
+  padding: 16px;
 }
 
 .footer {

@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 32px;
 }
 
 img {
@@ -17,13 +18,22 @@ img {
 
 .text {
   text-wrap: wrap;
+  text-align: center;
+}
+
+.cardstrip {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  flex-basis: 200px;
 }
 
 .infocard {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-basis: 200px;
+  align-self: center;
+  gap: 8px;
 }
 
 /* do not edit this footer */

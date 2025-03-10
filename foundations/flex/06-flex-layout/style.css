@@ -11,18 +11,6 @@ img {
   width: 600px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-
-a {
-  text-decoration: none;
-  color: lightslategray;
-}
-
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -35,4 +23,22 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+a {
+  text-decoration: none;
+  color: lightslategray;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end
 }
